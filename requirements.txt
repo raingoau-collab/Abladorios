@@ -1,0 +1,9 @@
+
+Flask
+fastapi
+fastapi-cli
+fastapi-cloud-cli
+openai
+openai-harmony
+opencv-python-headless
+soundfile

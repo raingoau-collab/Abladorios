@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Abladorios</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen">
+
+  <h1 class="text-3xl font-bold mb-6">🎙️ Abladorios - Voice to Text</h1>
+
+  <div class="bg-white shadow-lg rounded-lg p-6 w-96 text-center">
+    <button id="recordBtn" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg w-full mb-4">
+      Start Recording
+    </button>
+
+    <p id="status" class="text-gray-600 mb-4">Press the button to start recording (max 1 minute).</p>
+
+    <textarea id="resultText" class="w-full h-40 border rounded p-2" placeholder="Your transcription will appear here..." readonly></textarea>
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+</html>
