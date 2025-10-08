@@ -5,7 +5,7 @@ from io import BytesIO
 import os
 
 # --- Configuración del cliente ---
-client = genai.Client(api_key="AIzaSyCfgThtr_DvxFGKOvv9FF3CvXD_3-rCMAQ")
+client = genai.Client(api_key="openAi_KEY")
 
 # --- Prompt (corregido) ---
 prompt = (
